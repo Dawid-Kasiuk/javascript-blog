@@ -109,8 +109,11 @@
       const tagsWrapper = article.querySelector(optArticleTagsSelector);
 
       /* make html variable with empty string */
+      let html = '';
 
       /* get tags from data-tags attribute */
+      const articleTags = article.getAttribute('data-tags');
+      console.log(articleTags);
 
       /* split tags into array */
 
