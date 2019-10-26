@@ -103,8 +103,10 @@
     const articles = document.querySelectorAll(optArticleSelector);
 
     /* START LOOP: for every article: */
+    for(let article of articles){
 
       /* find tags wrapper */
+      const tagsWrapper = article.querySelector(optArticleTagsSelector);
 
       /* make html variable with empty string */
 
@@ -123,6 +125,7 @@
       /* insert HTML of all the links into the tags wrapper */
 
     /* END LOOP: for every article: */
+    }
   }
 
   generateTags();
