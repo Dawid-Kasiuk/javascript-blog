@@ -288,7 +288,7 @@
     let everyAuthorsHTML = ' ';
 
       for(let everyAuthor in everyAuthors){
-        everyAuthorsHTML += '<li><a href="#author-' + articleAuthor + '">' + articleAuthor + ' (' + everyAuthors[author] +') </a></li>';
+        everyAuthorsHTML += '<li><a href="#author-' + everyAuthor + '">' + everyAuthor + ' (' + everyAuthors[everyAuthor] +') </a></li>';
       }
       cloudAuthor.innerHTML = everyAuthorsHTML;
 
