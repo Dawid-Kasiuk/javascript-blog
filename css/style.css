@@ -110,23 +110,23 @@ body {
 
 /* Tag cloud */
 .tags .tag-size-1 {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .tags .tag-size-2 {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .tags .tag-size-3 {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .tags .tag-size-4 {
-  font-size: 21px;
+  font-size: 27px;
 }
 
 .tags .tag-size-5 {
-  font-size: 25px;
+  font-size: 32px;
 }
 
 .tags li {
